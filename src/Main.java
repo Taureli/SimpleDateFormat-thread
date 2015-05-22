@@ -17,10 +17,10 @@ public class Main {
 		Thread t3 = new Thread(th3);
 		Thread t4 = new Thread(th4);
 		
-		t1.run();
-		t2.run();
-		t3.run();
-		t4.run();
+		t1.start();
+		t2.start();
+		t3.start();
+		t4.start();
 	}
 	
 }
